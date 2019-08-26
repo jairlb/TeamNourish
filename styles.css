@@ -1,0 +1,227 @@
+/*   Name:  Jair Bacaycay
+ *   Due:   08/04/16
+ *   Class: MAT 125
+ *   Homework: Project3
+ * File:  styles.css
+ *****************************************************************************/
+ /* Page Description: This page is for external styles.
+  * includes classes... */
+
+/*Classes*/
+/* text */
+.redfont { color: #d63131; }
+.textright {
+  text-align: right;
+  margin: 0 7px 0 7px;
+  padding: 0 7px 0 7px;
+  font-size: 14px; }
+.smalltext {
+  font-size: 11px;
+  letter-spacing: 2px;
+word-spacing: 2px; }
+.textcenter {
+  text-align: center; }
+.collectionpic { margin: 10px 0 0 0; padding-left: 15px; }
+.picleft {
+  float: left;
+  margin: 5px 5px 0 0; }
+.leftcolconfig { margin-left: 10px; padding: 0;}
+
+.collectionbanner {
+  background-image: url(images/Victorian-style-decorative-patterns.jpg);
+  background-position: "top";
+  background-repeat: no-repeat;
+  color: #da4646;
+  text-align: center;
+  padding-bottom: 34px; }
+
+.galleryframe {
+	margin: 20px 10px 20px 230px;
+  padding: auto; }
+
+
+body {
+/* background details */
+background-color:	white;
+background-image: url(images/background.jpg);
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+
+/* body font details */
+font-family: Times New Roman, Book Antiqua, Times, serif;
+color: black;
+letter-spacing: 3px;
+word-spacing: 2px;
+line-height: 1.5em;
+font-size: 16px;
+margin: 0;
+padding: 0; }
+
+/* headline configuations */
+
+h1 {
+  margin: 0;
+  font: 3.5em/1'Boboto Condensed', sans-serif;
+ }
+h2 {
+   margin: 5px 10px 5px 13px;
+   padding: 15px 10px 5px 13px;
+   text-align: left;
+   letter-spacing: 4px;
+   font: 2.5em/1'Boboto Condensed', sans-serif;
+   color: #d63131; }
+h3 {  font: 1.5em/1'Boboto Condensed', sans-serif; }
+
+/* table */
+table, tr {
+  margin: auto;
+  padding: 10px 10px 10px 10px;
+  border-collapse: collapse; }
+
+ td {
+   margin: 0;
+   padding: 0 10px 0 10px; }
+
+/* paragraph tag configuations */
+p {
+  margin: 5px 7px 5px 13px;
+  padding: 0 7px 5px 13px; }
+
+iframe { float: center;}
+
+legend, select { margin: 0 0 10px 0; }
+
+li {
+  color: #da4646;
+  list-style-position: inside;
+  margin: 5px;
+  padding: 5px 10px 5px 0;}
+
+/* default link formatting */
+a { text-decoration: none; }
+a:link {color: #1874cd;}
+a:visited {color: #1874cd;}
+a:hover {color: #ff5618 ; }
+a:active {color: #1874cd; }
+
+/**** ids *****/
+/* wrapper */
+#wrapper { width: 1000px;
+  background: rgba(255, 255, 255, 0.85);
+  margin: 30px auto 0 auto;
+  border: 12px double rgba(255, 255, 255, 0.5);}
+
+/* left column and block navigation styling*/
+#leftcol {
+  width: 224px;
+  height: 700px;
+  text-align: left;
+  padding: 10px 5px 10px 5px ;
+  border-right: 1px solid silver;
+  float: left; }
+
+
+/* for main body content as opposed to leftcol */
+#maincontent {
+  width: 760px;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  float: right; }
+#maincontent img { margin: 10px 5px 5px 10px; }
+
+/* logo banner area */
+#banner {
+  height: 65px;
+  width: 100%;
+  color: white;
+  background-color: #47b684;
+  padding: 10px 0 0 2.5%;
+  margin: 0;
+  font-family: Roboto Condensed;
+  text-align: left;}
+#banner a {
+  color: white;
+  text-decoration: none; }  /* adds styles to company name for its double duty as a jump link */
+
+#bannerimg {
+  width: 1000px;
+  height: 288px;
+  margin: 0;
+  padding: 0;	 }
+
+/* optional footer */
+#footer {
+  clear: both;
+  background: rgba(255, 255, 255, 0.2);
+  color: #47b684;
+  padding: 0 30px;
+  margin-top: 20px;
+  letter-spacing: 5px;
+  word-spacing: 2px;
+  font-size: 12px; }
+
+#backtotop {
+  color: #47b684;
+  float: right;
+  padding: 0 180px 10px 0;
+  margin-top: -6.2%;
+  margin-right: 8%; }
+
+#copyrightarea {
+  clear: both;
+  background-color: #47b684;
+  color: white;
+  padding: 1px 30px;
+  margin-top: 20px;
+  padding-top: 5px;
+  text-align: center;
+  letter-spacing: 5px;
+  word-spacing: 2px;
+  font-size: 12px; }
+
+/* JavaScript dropdown navigation configurations */
+#ddm {
+padding: 0;
+margin: 0;
+z-index: 30;
+background: #47b684; }
+#ddm li {
+margin: 0;
+padding-left: 0;
+list-style: none;
+float: left;
+background: #47b684; }
+#ddm li a {
+  display: block;
+  margin: 0 40px 0 0;
+  padding: 0;
+  width: 100pxtext-decoration: none;
+  background: #47b684;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 5px;
+  word-spacing: 3px;
+  font-size: 14px;}
+#ddm li a:hover {
+  background: #47b684;
+  color: silver; }
+#ddm div {
+  position: absolute;
+  visibility: hidden;
+  background: #47b684; }
+#ddm div a {
+  position: relative;
+  display: block;
+  width: auto;
+  white-space: nowrap;
+  text-align: center;
+  color: white;
+  letter-spacing: 5px;
+  word-spacing: 3px;
+  font-size: 14px;
+  margin: 0;
+  padding: 7px 25px 7px 30px;}
+#ddm div a:hover { color: #ff5618 ; }

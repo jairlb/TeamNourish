@@ -1,0 +1,174 @@
+
+    <!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <title>Lunch</title>
+</head>
+<body>
+
+   <!-- Name:  Jair Bacaycay
+
+<!-- Page Description: index: floralology home page  -->
+
+		 <script language="javascript">
+					<!--
+
+					// Copyright 2006-2007 javascript-array.com
+					var timeout = 500;
+					var closetimer = 0;
+					var ddmenuitem = 0;
+
+					// open hidden layer
+					function mopen(id)
+					{
+						// cancel close timer
+						mcancelclosetime();
+
+						// close old layer
+						if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+
+						// get new layer and show it
+						ddmenuitem = document.getElementById(id);
+						ddmenuitem.style.visibility = 'visible';
+					}
+
+					// close showed layer
+					function mclose()
+					{
+						if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+					}
+
+					// go close timer
+					function mclosetime()
+					{
+						closetimer = window.setTimeout(mclose, timeout);
+					}
+
+					// cancel close timer
+					function mcancelclosetime()
+					{
+						if(closetimer)
+						{
+							window.clearTimeout(closetimer);
+							closetimer = null;
+						}
+					}
+
+					// close layer when click-out
+					document.onclick = mclose;
+					// Stop hiding -->
+			</script>
+	 </head>
+
+<body>
+
+<!-- Company Name & jump link on banner  -->
+<div id="banner">
+    <a href="index.html"><h1 class = "logo">NOURISH</a></h1>
+</div>
+
+<!-- Linking pages -->
+<ul id="ddm">
+	<table align="center" cellpadding="6" style="padding: 0;">
+	<td> 
+		<li><a href="index.html">Login<span style="color: #da4646"></span></a></li>
+        <li><a href="lifestyle.html">Lifestyle<span style="color: #da4646"></span></a></li>
+		<li><a href="shop.html"
+	        onmouseover="mopen('m1')"
+	        onmouseout="mclosetime()">Nourish</a>
+					<div id="m1"
+	          onmouseover="mcancelclosetime()"
+	          onmouseout="mclosetime()">
+	          <a href="nourish.html"></a>
+						<a href="breakfast.html">Breakfast</a>
+						<a href="lunch.html">Lunch</a>
+						<a href="dinner.html">Dinner</a>
+                        <a href="search.html">Search</a>
+					</div>
+		</li>
+		<li><a href="about.html">About Us</a></li>
+		<li><a href="advice.html">Advice</a></li>
+		<li><a href="elements.html"></a></li>
+	</td>
+	</table>
+</ul>
+
+<!-- Main Content -->
+<div id="wrapper">
+	
+    <img id="breakfast" src="images/unnamed.jpg"
+         width = "800px" height = "132px"
+	 alt = "Back to Top" title = "Back to Top">
+    
+     <section id="cereal">
+        <h1>Healthier Breakfast Options</h1>
+        <h2>Oatmeal</h2>
+        <p>Oats make an easy, balanced breakfast. One cup of cooked oatmeal contains about 150 calories, four grams of fiber (about half soluble and half insoluble), and six grams of protein. To boost protein further, my favorite way to eat oatmeal is with a swirl of almond butter nestled within.</p>
+        
+        <h2>Chia Seed Pudding</h2>
+        <p>Chia seed pudding is a simple and delicious way to easily get the benefits of chia seeds. It takes minutes to make and has enough protein and nutrients to be a quick, on-the-go breakfast option.
+
+This chia pudding could be put in reused baby food jars, small mason jars or even squeeze pouches to be included for school lunches.
+
+Personally, I love this with some chopped soaked nuts, fresh fruit or even chocolate shavings for breakfast or a delicious low-sugar dessert.</p>
+        
+        <h2>Granola and Greek Yogurt</h2>
+        <p>Despite its healthy image, some store-bought granola is so loaded with fat and calories it makes our list of 25 Fattening Foods You Should Never Eat. ... Make your own low-sugar, low-fat granola, breakfast bars and parfaits and pair it with fat-free fruit and Greek yogurt.</p>
+        
+        <h2>Acai Bowl</h2>
+        <p>Acai bowls look like ice cream, almost taste like ice cream, and make you feel good about your breakfast choice. It's what breakfast dreams are made of. An acai bowl is basically a really thick smoothie that's been topped with oatmeal, fruit or peanut butter, and then you wolf it down with a spoon</p>
+    </section>
+
+	<div id="footer">
+	</div>
+</div> <!-- end wrapper -->
+
+<!-- Back to Top -->
+<div id="backtotop">
+	<a href = "#banner">
+	<img src = "images/veggies_snow_pea_on_fork.png"
+	 width = "20px" height = "110px"
+	 alt = "Back to Top" title = "Back to Top">
+	</a>
+</div>
+
+<!-- copyright footer -->
+<div id="copyrightarea">
+	<div align="center">
+		<form method="post" action="mailto:eclairrei@gmail.com" enctype="text/plain">
+			<legend>Enter your email to sign up for our newsletter
+				<input style="border:2px #47b684; background-color: #4d4d4d; color: white;"
+				type="text" name="email" size="50">
+				<input style="background-color: #4d4d4d; border:1px #47b684; color: white;
+				 font-weight: bold;" type="submit" value="Join" name="submit button"></legend>
+		</form> <!--form end-->
+
+			<div>
+					Follow us on Social Media:
+				 <a href="https://www.facebook.com/login/" target="_blank"><img src = "images/social_media.png"
+				 width = "35px" height = "35px" alt = "social_media" title = "floralology facebook"></a>
+				 <a href="https://twitter.com/login?lang=en" target="_blank"><img src = "images/social_media_2.png"
+		 		 width = "35px" height = "35px" alt = "social_media" title = "floralology twitter"></a>
+				 <a href="https://twitter.com/login?lang=en" target="_blank"><img src = "images/social_media_3.png"
+		 		 width = "35px" height = "35px" alt = "social_media" title = "floralology pinterest"></a>
+				 <a href="https://accounts.google.com/login" target="_blank">
+				 <img src = "images/social_media_4.png" width = "35px" height = "35px" alt = "social_media" title = "floralology google plus"></a>
+				 <a href="https://www.instagram.com/accounts/login/" target="_blank"><img src = "images/social_media_5.png"
+				 width = "35px" height = "35px" alt = "social_media" title = "floralology instagram"></a>
+		 </div>
+	 </div>
+
+	<hr align="center" size="1" width="60%"	color= white>
+	<p class="smalltext">&copy;  Nourish. All Rights not Reserved. Team Nourish
+		2017. CSUSM Hackathon Fictional.</p>
+</div>
+
+</body>
+</html>
+
+
+
+</body>
+</html>
